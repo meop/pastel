@@ -77,7 +77,7 @@ jobs:
           - { target: i686-pc-windows-msvc        , os: windows-latest                 }
           - { target: i686-unknown-linux-gnu      , os: ubuntu-latest, use-cross: true }
           - { target: i686-unknown-linux-musl     , os: ubuntu-latest, use-cross: true }
-          - { target: x86_64-apple-darwin         , os: macos-15-intel                }
+          - { target: x86_64-apple-darwin         , os: macos-latest                   }
           - { target: x86_64-pc-windows-gnu       , os: windows-latest                 }
           - { target: x86_64-pc-windows-msvc      , os: windows-latest                 }
           - { target: aarch64-pc-windows-msvc     , os: windows-11-arm                }
